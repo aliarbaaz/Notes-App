@@ -1,0 +1,23 @@
+<resources>
+    <!-- AlertDialog Theme -->
+    <style name="MyAlertDialogTheme" parent="Theme.MaterialComponents.DayNight.Dialog.Alert">
+        <!-- Customize the text color -->
+        <item name="android:textColorPrimary">@color/black</item>
+        <item name="android:textColorSecondary">@color/black</item>
+        <!-- Customize the background -->
+        <item name="android:background">@color/white</item>
+        <!-- Button Text Styles -->
+        <item name="buttonBarPositiveButtonStyle">@style/PositiveButtonStyle</item>
+        <item name="buttonBarNegativeButtonStyle">@style/NegativeButtonStyle</item>
+    </style>
+
+    <!-- Style for Positive Button -->
+    <style name="PositiveButtonStyle" parent="Widget.MaterialComponents.Button.TextButton">
+        <item name="android:textColor">@color/red</item>
+    </style>
+
+    <!-- Style for Negative Button -->
+    <style name="NegativeButtonStyle" parent="Widget.MaterialComponents.Button.TextButton">
+        <item name="android:textColor">@color/black</item>
+    </style>
+</resources>

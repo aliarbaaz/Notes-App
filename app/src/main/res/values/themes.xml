@@ -1,0 +1,20 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.MyNotes" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+<!--         <item name="colorPrimary">@color/yellowPrimary</item>-->
+        <item name="colorPrimary">@color/yellowPrimary</item>
+        <item name="android:itemBackground">@color/yellowPrimary</item>
+        <item name="android:textColorPrimary">@color/white</item>
+        <item name="floatingActionButtonStyle">@color/yellowPrimary</item>
+    </style>
+
+    <style name="Theme.MyNotes" parent="Base.Theme.MyNotes" />
+
+    <style name="FloatingActionButtonStyle" parent="Widget.Design.FloatingActionButton">
+        <item name="shapeAppearanceOverlay">@style/FabShapeStyle</item>
+    </style>
+    <style name="FabShapeStyle" parent="ShapeAppearance.MaterialComponents.SmallComponent">
+        <item name="cornerSize">50%</item>
+    </style>
+</resources>
