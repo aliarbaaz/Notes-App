@@ -1,11 +1,7 @@
 package com.example.mynotes
 
 import android.os.Bundle
-import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
-import androidx.appcompat.view.menu.ActionMenuItem
-import androidx.core.view.ViewCompat
-import androidx.core.view.WindowInsetsCompat
 import androidx.lifecycle.ViewModelProvider
 import com.example.mynotes.database.NoteDatabase
 import com.example.mynotes.databinding.ActivityMainBinding

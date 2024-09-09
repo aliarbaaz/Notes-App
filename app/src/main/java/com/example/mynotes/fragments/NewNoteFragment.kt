@@ -8,13 +8,11 @@ import android.view.MenuItem
 import android.view.View
 import android.view.ViewGroup
 import android.widget.Toast
-import androidx.appcompat.widget.SearchView
 import androidx.fragment.app.Fragment
 import androidx.navigation.findNavController
 import com.example.mynotes.MainActivity
 import com.example.mynotes.R
 import com.example.mynotes.adapter.NoteAdapter
-import com.example.mynotes.databinding.FragmentHomeBinding
 import com.example.mynotes.databinding.FragmentNewNoteBinding
 import com.example.mynotes.model.Note
 import com.example.mynotes.viewmodel.NoteViewModel
