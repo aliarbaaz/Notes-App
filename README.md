@@ -18,15 +18,11 @@ The Notes App is a simple and efficient note-taking application built for Androi
 ## Setup and Installation
 1. Clone the repository:
     ```bash
-    git clone <repository-url>
+    git clone https://github.com/aliarbaaz/Notes-App.git
     ```
 2. Open the project in Android Studio.
 3. Sync project with Gradle files.
 4. Run the app on an emulator or Android device.
-
-## How to Use
-- Explain briefly how to navigate or use key features of the app.
-- Step-by-step usage instructions.
 
 ## Screenshots
 <img src="https://github.com/user-attachments/assets/682b35d9-3207-4e94-bbc0-dc5ff5a0d8fc" width="200" height="400"  alt="No Notes Screen"/>
