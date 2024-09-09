@@ -1,4 +1,4 @@
-# My Nots App
+# My Notes App
 
 ## Overview
 The Notes App is a simple and efficient note-taking application built for Android. It allows users to create, edit, and delete notes, providing a clean and user-friendly interface for managing their personal or professional notes. The app is developed using Kotlin for the logic, XML for designing the UI, and Room Database for local data storage.
